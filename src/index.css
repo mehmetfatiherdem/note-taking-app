@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.note-blocks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note-block{
+  background-color: rgb(42, 42, 133);
+  width: 300px;
+  height: 400px;
+  border-radius: 0.5em;
+  margin: 10px;
+
+}
+
+.note-input{
+  resize: none;
+  background-color: rgb(45, 219, 211);
+  outline: none;
+  border: none;
+}
+
+.add-note-block{
+  background-color: rgb(45, 219, 211);
+  width: 300px;
+  height: 400px;
+  border-radius: 0.5em;
+  margin: 10px;
+  
+}
