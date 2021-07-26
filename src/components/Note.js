@@ -8,7 +8,7 @@ function Note({note, deleteNote}) {
                 {note.text}
             </div>
 
-            <button onClick={() => {deleteNote(note.id)}}>Delete</button>
+            <button className="delete-btn" onClick={() => {deleteNote(note.id)}}>Delete</button>
 
         </div>
     )
